@@ -1,0 +1,134 @@
+body {
+    text-align: center;
+
+}
+
+
+#about {
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    display: table;
+    font-family: 'Cinzel Decorative', cursive;
+}
+  #line {
+    width: 70px;
+    height: 5px;
+    background: black;
+    margin: 8px auto;
+
+}
+
+p {
+    font-size: 20px;
+    max-width: 450px ;
+    margin-left: 100px;
+    
+}
+
+#img1 {
+    width: 250px;
+    border-radius: 50%;
+    z-index: 9;
+    margin-right: 700
+}
+    
+    .menu{
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    position: absolute;
+    list-style: none;
+    cursor: pointer;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+}
+
+.links{
+    float: left;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.links:hover{
+    background-color: dodgerblue
+}
+
+
+
+a {
+    text-decoration: none;
+    color: blue
+}
+
+a:hover{
+color:aquamarine;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#Apps {
+    width: 100%;
+    height: 1600px;
+    background-color: lightcoral;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+#games {
+    width: 100%;
+    height: 1600px;
+    background-color: lightcoral;
+}
+
+#chatbot {
+    width: 100%;
+    height: 1600px;
+    background-color: lightcoral;
+}
+
+.line{
+    width: 70px;
+    height: 5px;
+    background: black;
+    margin-left: 280px;
+}
+
+#h11{
+    margin-right: 700px;
+}
+
+#contact {
+    background-color: crimson
+}
+
+
+#contact iframe {
+    width: 100%;
+}
+
+#work a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
